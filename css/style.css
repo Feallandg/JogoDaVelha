@@ -1,0 +1,57 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(122, 224, 226) , rgb(51, 45, 157));
+   
+}
+    
+
+h2, h3, h4{
+    text-align: center;
+    margin-top: -1px;
+}
+
+
+#tela {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: none;
+    padding-top: 150px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 240px;
+    background-color: rgb(210, 246, 238);
+    border-radius: 25px;
+    border: 3px solid black;
+
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+.celula{
+    width: 70px;
+    height: 60px;
+    font-size: 30pt;
+    margin: 4px 2px; 
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(78, 215, 170);
+}
